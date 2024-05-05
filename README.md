@@ -8,7 +8,7 @@ La aplicación está escrita en Java, utiliza el patrón de diseño MVC
 (Modelo-Vista-Controlador) para organizar su estructura y como entorno de desarrollo 
 integrado (IDE) se utilizo IntelliJ IDEA para escribir, depurar y probar el código.
 
-![Conversor de Divisas](C:\Users\ficam\Dropbox\ONE\JAVA\CurrencyExchange\imagenes\ConversorDeDivisas.png)
+![Conversor de Divisas](https://raw.githubusercontent.com/Fica-Millan/alura_ConversorDeMonedas/main/imagenes/ConversorDeDivisas.png)
 
 ## Características
 
@@ -62,7 +62,7 @@ Conversion conversion = new Conversion(divisaBase, divisaObjetivo, cantidad,
         historialConversiones.agregarConversion(conversion);
 ```
 
-![Historial de consultas](C:\Users\ficam\Dropbox\ONE\JAVA\CurrencyExchange\imagenes\HistorialDeConsultas.png)
+![Historial de consultas](https://raw.githubusercontent.com/Fica-Millan/alura_ConversorDeMonedas/main/imagenes/HistorialDeConsultas.png)
 
 ## Control de Errores
 
@@ -93,7 +93,7 @@ private static double leerCantidad(String mensaje) {
 }
 ```
 
-![Error de importe incorrecto](C:\Users\ficam\Dropbox\ONE\JAVA\CurrencyExchange\imagenes\ErrorImporteIncorrecto.png)
+![Error de importe incorrecto](https://raw.githubusercontent.com/Fica-Millan/alura_ConversorDeMonedas/main/imagenes/ErrorImporteIncorrecto.png)
 
 ### Captura de Excepciones
 Se han implementado bloques try-catch para capturar excepciones y manejarlas 
